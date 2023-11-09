@@ -1,6 +1,20 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
+/* Swiggy Component requirements
+* Header
+    -logo
+    -Nav Items
+* Body
+    -search
+    *RestaurantContainer
+        -RestaurantCards
+* Footer
+    -Copyright
+    -Links
+    -Address
+    -Contact
+*/
 const heading = React.createElement("h1", { id: "heading" }, "Namaste React");
 
 console.log(heading);
